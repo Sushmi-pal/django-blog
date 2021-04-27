@@ -1,0 +1,10 @@
+{% extends 'landing/base.html' %}
+{% block body %}
+<div class="topnav">
+    <a href="{% url 'users:profile' %}">Profile</a>
+    <a href="{% url 'landing:create' %}">Create</a>
+    <a href="{% url 'landing:blog' %}">View</a>
+    <a href="{% url 'users:logout' %}">Logout</a>
+</div>
+
+{% endblock %}

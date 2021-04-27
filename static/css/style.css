@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+        .nav-link{
+        display:block;
+        font-family: 'Italianno', cursive;
+        border:1px solid black;
+        background-color:transparent;
+        width:80;
+        text-decoration:None;
+        color:white;
+        transition: all 400ms ease-in-out;
+        text-align:center;
+        padding:15px 35px;
+
+        position:absolute;
+        font-size:30;
+        top:30;
+        float:right;
+        left:90%;
+        }
+        .nav-link:hover{
+        background-color: #800000;
+        border-color: transparent;
+        color:black;
+        }
+        figure{
+        position:relative;
+        width:100%;
+        }
+
+        figcaption{
+        font-family: 'Italianno', cursive;
+        position:absolute;
+        bottom:200;
+        font-color:white;
+        width:100%;
+        left:200px;
+        font-size:40px;
+        color:#800000;
+        text-shadow: white 2px 5px;
+        transform: rotate(-7deg);
+
+        }
+        table {
+  border-collapse: collapse;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+}

@@ -1,0 +1,9 @@
+{% extends 'landing/base.html' %}
+
+{% block body %}
+<div class="descauth">
+    <h1>Author's Name:</h1> <h4>{{request.user.username}}</h4><br>
+    <h1>Author's Description:</h1><h4> {{request.user.email}}</h4>
+    </div>
+{% endblock %}
+</html>

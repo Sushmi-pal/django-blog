@@ -1,0 +1,42 @@
+{% extends 'landing/base.html' %}
+{% block body %}
+    <div class="topnav">
+    <a href="{% url 'users:profile' %}">Profile</a>
+    <a href="{% url 'landing:create' %}">Create</a>
+    <a href="{% url 'landing:blog' %}">View</a>
+    <a href="{% url 'users:logout' %}">Logout</a>
+</div>
+<div class="all">
+<h1 id="blogh1">List Of Blogs</h1>
+{% for i in data %}
+  {{i.created_at}}-{{i.updated_at}}
+<div class='tfortable'align="center" >
+<div class="card-header">
+    <h2>By</h2> <a class='new' href="/landing/desc/{{request.user.id}}" ><h2>{{request.user.username}}</h2></a>
+  </div>
+    <div class="card-body">
+    <h2 class="card-title">Title:<br>{{i.title}}</h2>
+      <h2>Summary:</h2>
+    <p class="card-text">{{i.summary}}</p>
+    <a class='abc' href="/landing/detail/{{i.id}}" ><h3>Read More</h3></a>
+  </div>
+  <div class="card-footer text-muted">
+    <!--<h3>Created At:{{i.created_at}} and-->
+      <!--Updated At{{i.updated_at}}<br>-->
+
+      <br>
+      <br>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+
+
+
+    {% endfor %}
+  </div>
+
+{% endblock %}
