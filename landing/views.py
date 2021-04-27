@@ -4,8 +4,14 @@ from .models import BlogView,AuthorName
 from .forms import BlogViewForm
 from django.contrib.auth import get_user_model
 User=get_user_model()
+from django.views.generic import ListView
 class HomePageView(TemplateView):
     template_name = 'landing/home.html'
+
+class BlogPage(ListView):
+    model = BlogView
+    template_name = 'landing/blog.html'
+    context_object_name = 'data'
 
 def blogpage(request):
     data=BlogView.objects.all()
