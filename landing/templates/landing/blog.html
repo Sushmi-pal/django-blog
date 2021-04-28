@@ -9,10 +9,10 @@
 <div class="all">
 <h1 id="blogh1">List Of Blogs</h1>
 {% for i in data %}
-  {{i.created_at}}-{{i.updated_at}}
+  {{i.created_at}}
 <div class='tfortable'align="center" >
 <div class="card-header">
-    <h2>By</h2> <a class='new' href="/landing/desc/{{request.user.id}}" ><h2>{{request.user.username}}</h2></a>
+    <h2>By</h2> <a class='new' href="/landing/desc/{{i.user.id}}" ><h2>{{i.user.username}}</h2></a>
   </div>
     <div class="card-body">
     <h2 class="card-title">Title:<br>{{i.title}}</h2>
@@ -22,7 +22,7 @@
   </div>
   <div class="card-footer text-muted">
     <!--<h3>Created At:{{i.created_at}} and-->
-      <!--Updated At{{i.updated_at}}<br>-->
+
 
       <br>
       <br>

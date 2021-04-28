@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7edaba73-6e3f-4e1d-9f23-f02f785c6d1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d6b55d4-aa13-4009-b0e4-908a29ccccad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3d6b55d4-aa13-4009-b0e4-908a29ccccad.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/migrations/0002_remove_blogview_author.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/templates/landing/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/templates/landing/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/IMG_4405.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/IMG_4467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/IMG_4467_HxCqYPG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/IMG_4467_PQ6MIlf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/IMG_4467_ahVTR7M.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0002_auto_20210426_2119.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0003_profile.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +69,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/profile_pics" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\new\PycharmProjects\blog\media\profile_pics" />
       <recent name="C:\Users\new\PycharmProjects\blog" />
     </key>
   </component>
@@ -78,7 +114,8 @@
       <workItem from="1601672494711" duration="656000" />
       <workItem from="1619441140549" duration="6456000" />
       <workItem from="1619489354908" duration="11258000" />
-      <workItem from="1619507552158" duration="290000" />
+      <workItem from="1619507552158" duration="2261000" />
+      <workItem from="1619576987064" duration="842000" />
     </task>
     <servers />
   </component>
@@ -95,8 +132,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619577205039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1619577205039" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1619453072357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
