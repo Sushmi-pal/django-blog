@@ -15,9 +15,7 @@ class BlogPage(ListView):
 
 def blogpage(request):
     data=BlogView.objects.all()
-    for i in data:
-        print('blogpage',i.user.username)
-    return render(request,'landing/blog.html',{'data':data})
+    return render(request,'landing/blogcreate.html',{'data':data})
 
 def authdesc(request,user_id):
     print('hello',user_id)
