@@ -9,7 +9,7 @@
 <div class="main">
     <h2>Your Blogs</h2>
 </div>
-<form method="post" class="formclass">
+<form method="post" class="formclass" enctype="multipart/form-data">
     {% csrf_token %}
     {{form.as_p}}
     <button type="submit" class="btn">Submit</button>

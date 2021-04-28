@@ -15,6 +15,7 @@ class BlogPage(ListView):
 
 def blogpage(request):
     data=BlogView.objects.all()
+    print(request.POST)
     return render(request,'landing/blogcreate.html',{'data':data})
 
 def authdesc(request,user_id):
@@ -36,12 +37,15 @@ def detailblog(request,id):
 
 def Create(request):
     if request.method=='POST':
-        form=BlogViewForm(request.POST)
+        form=BlogViewForm(request.POST,request.FILES)
+        print(request.FILES)
         if form.is_valid():
+            print(form.cleaned_data['image'])
             updated = form.save(commit=False)
             updated.title = form.cleaned_data["title"]
             updated.summary = form.cleaned_data["summary"]
             updated.blogs = form.cleaned_data["blogs"]
+            updated.image=form.cleaned_data['image']
             updated.user = request.user
             updated.save()
             print('Form is valid',form.cleaned_data)
