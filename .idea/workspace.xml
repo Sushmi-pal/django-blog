@@ -20,19 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7edaba73-6e3f-4e1d-9f23-f02f785c6d1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d6b55d4-aa13-4009-b0e4-908a29ccccad.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/migrations/0002_blogview_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/migrations/0003_blogview_image.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/templates/landing/blogcreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/blogcreate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/templates/landing/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,7 @@
       <workItem from="1619507552158" duration="2261000" />
       <workItem from="1619576987064" duration="21685000" />
       <workItem from="1619623268335" duration="2806000" />
-      <workItem from="1619657779077" duration="4344000" />
+      <workItem from="1619657779077" duration="19472000" />
     </task>
     <servers />
   </component>
@@ -134,10 +127,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1619658228381" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1619594402058">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1619668182413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619594402058" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619668182413" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1619441282040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

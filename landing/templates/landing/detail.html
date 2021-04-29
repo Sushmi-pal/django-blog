@@ -6,8 +6,18 @@
 <br>
         {{ de.title }}<br><br></h3>
     {{ de.blogs }}
+
 <br><br>
 <hr>
+
+<form action="{% url 'landing:like_blog' %}" method="post">
+    {% csrf_token %}
+
+<button type="submit" name="blog_id" value="{{ de.id }}" class="btn btn-primary"> Like </button>
+
+</form>
+ <span><i class="fa fa-thumbs-o-up"></i> {{ total_likes }} </span>
+<span><i class="fa fa-comment-o"></i> {{ comment_length }} </span>
 <h1 style="text-align: center">Comments Section</h1>
     <form style="padding-top: 130px; padding-left: 500px;" method="post">
         {% csrf_token %}
