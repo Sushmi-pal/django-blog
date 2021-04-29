@@ -7,8 +7,8 @@ urlpatterns = [
     # path('blog/',BlogPage.as_view(),name='blog'),
     path('blog/',blogpage,name='blog'),
     path('desc/<int:user_id>',authdesc,name='desc'),
-    path('detail/<int:pk>',BlogDetail.as_view(),name='detail'),
-    # path('detail/<int:id>',detailblog,name='detail'),
+    # path('detail/<int:pk>',BlogDetail.as_view(),name='detail'),
+    path('detail/<int:id>',detailblog,name='detail'),
     path('create/',Create,name='create'),
     path('blogtry/',BlogTry,name='blogtry')
 

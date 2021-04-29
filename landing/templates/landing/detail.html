@@ -2,9 +2,26 @@
 {% block body %}
 <div class="last">
     <h3>
+        <img src="http://127.0.0.1:8000/media/{{ de.image }}" width="200px;">
+<br>
+        {{ de.title }}<br><br></h3>
+    {{ de.blogs }}
+<br><br>
+<hr>
+<h1 style="text-align: center">Comments Section</h1>
+    <form style="padding-top: 130px; padding-left: 500px;" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div style="padding-left: 300px;">
+        <button  type="submit">Post</button></div>
+    </form><hr>
+<div style="padding-left: 500px;">
+    {% for i in comment %}
+        {{ i.user.username }}
+    <input type="text" value="{{ i.name }}">
+        <br><br>
+    {% endfor %}
 
-
-{{object.title}}<br><br></h3>
-{{object.blogs}}
 </div>
+    </div>
 {% endblock %}

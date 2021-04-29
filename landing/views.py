@@ -1,7 +1,7 @@
 from django.views.generic import TemplateView
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import BlogView,AuthorName
-from .forms import BlogViewForm
+from .models import BlogView,AuthorName,Comment
+from .forms import BlogViewForm, CommentForm
 from django.contrib.auth import get_user_model
 User=get_user_model()
 from django.views.generic import ListView, DetailView
@@ -30,10 +30,21 @@ class BlogDetail(DetailView):
     template_name = 'landing/detail.html'
 
 def detailblog(request,id):
-    print(id)
-    # de=BlogView.objects.get(id=id)
     de=get_object_or_404(BlogView,id=id)
-    return render(request,'landing/detail.html',{'de':de})
+    b=BlogView.objects.get(id=id)
+    c=Comment.objects.filter(blogview_id=id)
+    print(c)
+    if request.method=='POST':
+        form=CommentForm(request.POST)
+        if form.is_valid():
+            comment=Comment(name=form.cleaned_data['name'],
+                            user=request.user,
+                            blogview=b)
+            comment.save()
+            return redirect('/landing/blog/')
+    else:
+        form=CommentForm()
+    return render(request,'landing/detail.html',{'de':de,'form':form,'comment':c})
 
 def Create(request):
     if request.method=='POST':
@@ -55,6 +66,8 @@ def Create(request):
     else:
         form=BlogViewForm()
     return render(request,'landing/create.html',{'form':form})
+
+
 
 def BlogTry(request):
     return render(request,'landing/blogtry.html')

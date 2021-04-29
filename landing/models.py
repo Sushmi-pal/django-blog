@@ -20,3 +20,8 @@ class BlogView(models.Model):
 
     def __str__(self):
         return self.title
+
+class Comment(models.Model):
+    name=models.CharField(max_length=500)
+    user=models.ForeignKey(User, on_delete=models.CASCADE)
+    blogview=models.ForeignKey(BlogView,on_delete=models.CASCADE)
