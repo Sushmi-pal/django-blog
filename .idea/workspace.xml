@@ -21,10 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7edaba73-6e3f-4e1d-9f23-f02f785c6d1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/templates/landing/blogcreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/blogcreate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -55,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jankari" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,7 +101,11 @@
       <workItem from="1619507552158" duration="2261000" />
       <workItem from="1619576987064" duration="21685000" />
       <workItem from="1619623268335" duration="2806000" />
-      <workItem from="1619657779077" duration="19472000" />
+      <workItem from="1619657779077" duration="21518000" />
+      <workItem from="1620048249590" duration="1265000" />
+      <workItem from="1620053988174" duration="875000" />
+      <workItem from="1620111882827" duration="1783000" />
+      <workItem from="1620182904152" duration="4151000" />
     </task>
     <servers />
   </component>
@@ -123,14 +125,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="457" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620199614662">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1620199614662" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619658228381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1619658228381" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1619668182413">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1620183558444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619668182413" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620183558444" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1619441282040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

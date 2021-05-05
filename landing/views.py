@@ -36,6 +36,7 @@ def detailblog(request,id):
     de=get_object_or_404(BlogView,id=id)
     b=BlogView.objects.get(id=id)
     c=Comment.objects.filter(blogview_id=id)
+    print(len(c))
     print(c)
     if request.method=='POST':
         form=CommentForm(request.POST)

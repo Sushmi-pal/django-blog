@@ -343,5 +343,5 @@ fabric.properties
 pyvenv.cfg
 .venv
 pip-selfcheck.json
-
+secret.py
 # End of https://www.toptal.com/developers/gitignore/api/python,django,pycharm,virtualenv
